@@ -1,0 +1,130 @@
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #f0f0f0 !important;
+}
+
+body.dark-mode a,
+body.dark-mode .nav-link,
+body.dark-mode .btn-link {
+  color: #90caf9 !important;
+}
+
+body.dark-mode .navbar,
+body.dark-mode .footer-custom,
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+
+body.dark-mode .btn-dark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #ffffff !important;
+}
+
+body.dark-mode .card-text,
+body.dark-mode p,
+body.dark-mode .text-muted {
+  color: #dddddd !important;
+}
+
+body.dark-mode .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode .btn,
+body.dark-mode .btn-outline-primary,
+body.dark-mode .button,
+body.dark-mode .actions.special a.button {
+  background-color: transparent !important;
+  border-color: #90caf9 !important;
+  color: #90caf9 !important;
+}
+
+/* Correcciones para secciones principales */
+body.dark-mode .jumbotron,
+body.dark-mode .highlight-box,
+body.dark-mode .tofront,
+body.dark-mode .intro,
+body.dark-mode .hero,
+body.dark-mode .header,
+body.dark-mode .main-banner,
+body.dark-mode .post.featured {
+  background-color: #1e1e1e !important;
+  color: #f0f0f0 !important;
+}
+
+body.dark-mode .post.featured p,
+body.dark-mode .post.featured .date,
+body.dark-mode .posts article p {
+  color: #cccccc !important;
+}
+
+body, body * {
+  transition: background-color 0.3s, color 0.3s;
+}
+/* Fondos para artículos en la sección de posts */
+body.dark-mode .posts article {
+  background-color: #1e1e1e !important;
+  color: #dddddd !important;
+  border: 1px solid #333 !important;
+}
+body.dark-mode .btn,
+body.dark-mode .btn-dark,
+body.dark-mode .btn-block,
+body.dark-mode button {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cccccc !important;
+}
+/* Estilo para botón "Volver a comenzar" en modo oscuro */
+body.dark-mode #play-first {
+  background-color: #1a73e8 !important;
+  border-color: #1a73e8 !important;
+  color: #fff !important;
+}
+
+body.dark-mode #play-first:hover {
+  background-color: #1669c1 !important;
+  border-color: #1669c1 !important;
+  color: #fff !important;
+}
+
+/* Estilo para el fondo del reproductor principal */
+body.dark-mode .card-body {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+/* Estilo para las canciones en la lista lateral */
+body.dark-mode .song {
+  background-color: #1e1e1e !important;
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 8px;
+  transition: background-color 0.2s;
+}
+
+body.dark-mode .song:hover {
+  background-color: #2a2a2a !important;
+}
+
+body.dark-mode .song h2,
+body.dark-mode .song .card-text {
+  color: #ffffff !important;
+}
+
+/* Canción activa resaltada */
+body.dark-mode .active-song {
+  background-color: #2c3e50 !important;
+  border-left: 4px solid #1a73e8 !important;
+}
